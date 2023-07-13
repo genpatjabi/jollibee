@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Form - Jollibee</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">
+      <table>
+	  <tr>
+	  <td>
+        <img src="https://brandslogos.com/wp-content/uploads/thumbs/jollibee-logo-vector.svg" alt="Jollibee Logo">
+	  </td>
+	  <td>
+	  	  <h1 style="margin-left: 10%; font-size: 400%;">Jollibee</h1>
+		 </td>
+	  </tr>
+	  </table>
+      </div>
+	  <br>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="index.html#locations">Locations</a></li>
+		<li><a href="about.html">About Us</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Order Form Section -->
+  <section id="order-form">
+    <div class="container">
+      <h2 style="margin-bottom: 5%;">Place Your Order</h2>
+      <form>
+        <div class="row">
+          <div class="column">
+            <h3>Product Selection</h3>
+            <select name="product">
+              <option value="">Select a product</option>
+              <option value="chickenjoy">Chickenjoy</option>
+              <option value="spaghetti">Jolly Spaghetti</option>
+              <option value="family-meal">Family Meal</option>
+            </select>
+          </div>
+          <div class="column">
+            <h3>Quantity</h3>
+            <input type="number" name="quantity" placeholder="Enter quantity">
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <h3>Your Information</h3>
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+			<input type="num" name="number" placeholder="Phone Number">
+          </div>
+          <div class="column">
+         <h3>Delivery Address</h3>
+            <input type="text" name="address" placeholder="Delivery Address">
+            <input type="text" name="city" placeholder="City">
+            <input type="text" name="country" placeholder="Country">
+          </div>
+        </div>
+        <button type="submit" onclick="confirmOrder()">Place Order</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Jollibee. For educational purposes only.</p>
+  </footer>
+  
+   <!-- JavaScript -->
+  <script>
+    function confirmOrder() {
+      if (confirm("Confirm order?")) {
+        alert("Your order is confirmed!");
+      }
+    }
+  </script>
+</body>
+
+</html>

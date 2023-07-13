@@ -1,0 +1,307 @@
+/* styles.css */
+
+/* Set font family */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #ED1C24;
+  padding: 20px;
+  color: white;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Home Section */
+#home {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20 px;
+  color: #ffffff;
+  margin-bottom: 40 px;
+}
+
+
+.cta-button {
+  display: inline-block;
+  background-color: #ED1C24;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.cta-button:hover {
+  background-color: #C4161C;
+}
+
+#home h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+p {
+  color: black;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ED1C24;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.cta-button:hover {
+  background-color: #C4161C;
+}
+
+/* Menu Section */
+#menu {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#menu h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#menu li {
+  flex: 0 0 300px;
+  margin-right: 20px;
+}
+
+#menu li img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#menu h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#menu p {
+  font-size: 16px;
+}
+
+/* Locations Section */
+#locations {
+  background-color: #ED1C24;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+#locations h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+#locations ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#locations li {
+  flex: 0 0 300px;
+  margin-right: 20px;
+}
+
+#locations h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#locations p {
+  font-size: 16px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #ED1C24;
+  text-align: center;
+  color: white;
+}
+
+#contact h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+#contact input,
+#contact textarea {
+  width: 40%;
+  height: 200%;
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#contact textarea {
+	height: 100px;
+}
+
+#contact button {
+  background-color: #F1C40F;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  align-items: center;
+}
+
+#contact button:hover {
+  background-color: #C4161C;
+}
+
+/* Footer */
+footer {
+  background-color: #333333;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+.logo img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+}
+
+/* Example additional styles */
+.logo {
+  margin-right: 20px;
+}
+
+.logo img:hover {
+  opacity: 0.8;
+}
+
+.intro {
+	text-align: center;
+}
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Order Form section styles */
+#order-form {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+form h3 {
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.column {
+  flex-basis: 45%;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
